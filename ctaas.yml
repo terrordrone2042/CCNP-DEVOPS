@@ -1,8 +1,8 @@
 - name: "Day 1 Config: Coretaas"
-hosts: ctaas
-gather_facts: no
-become: yes
-tasks: 
+  hosts: ctaas
+  gather_facts: no
+  become: yes
+  tasks: 
     - name: "Configuring Console Access"
       ios_command: 
         commands:
