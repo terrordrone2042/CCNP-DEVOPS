@@ -1,7 +1,7 @@
 [ctaas]
 10.42.1.2
 
-[ctaas]:vars
+[ctaas:vars]
 ansible_user=admin
 ansible_password=C1sc0123
 ansible_connection=network_cli
